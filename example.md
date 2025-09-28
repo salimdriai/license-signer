@@ -1,3 +1,3 @@
 gen : cargo run -- gen
 
-sign : cargo run -- sign-from-request LIC-2025 pWZhcHBfaWRmaXh5cG9zZ3ZlcnNpb25lMC4xLjBnaHdfaGFzaHgrcERhS1RLMHZyV2FiamhOSWtUaWpvZEpsTFZ1OHRjbVBEOUhYRDFPeTZlTWpjcmVhdGVkX2F0eB4yMDI1LTA5LTI1VDEwOjI2OjEwLjgxMzgwNTMwMFppbm9uY2VfYjY0dm5vU2pDTE5qbjFqcWJxdGQydmNtYmc > license.json
+sign : cargo run -- sign-from-request LIC-2025 <Your key> > license.json
